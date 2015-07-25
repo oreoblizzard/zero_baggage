@@ -50,7 +50,7 @@ ActiveRecord::Schema.define(version: 20150725140659) do
     t.integer  "machine_id",    limit: 4
     t.integer  "status",        limit: 4
     t.string   "code",          limit: 255
-    t.datetime "received_date"
+    t.datetime "receive_date"
     t.datetime "received_at"
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
