@@ -1,2 +1,0 @@
-class Pant < Item
-end
