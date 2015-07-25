@@ -7,4 +7,6 @@
 //= require jquery.placeholder
 //= require jquery.inview
 //= require respond.min
+//= require jquery.magnific-popup
 //= require app
+

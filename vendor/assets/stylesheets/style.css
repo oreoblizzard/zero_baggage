@@ -36,12 +36,12 @@ body {
 }
 
 a {
-    color: #181A1C;
+    color: #46bfb4;
     text-decoration: none;
 }
 
 a:hover {
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .navbar {
-    background: #181A1C;
+    background: #46bfb4;
     margin-bottom: 0;
     min-height: 70px;
 }
@@ -72,7 +72,7 @@ p {
 }
 
 .navbar-inner {
-    background: #181A1C;
+    background: #46bfb4;
     border-radius: 0;
     filter: none;
     border: none;
@@ -80,18 +80,17 @@ p {
 }
 
 .navbar .brand img {
-    width: 120px;
-    height: 40px;
+    width: 220px;
+    height: 90px;
 }
 
 .navbar .nav > li > a {
     text-transform: uppercase;
-    /*line-height: auto;*/
     vertical-align: middle;
     margin: 10px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    border: 1px solid #181A1C;
+    border: 1px solid #46bfb4;
     box-shadow: none;
     font-size: 15px;
     text-shadow: none;
@@ -100,9 +99,9 @@ p {
 }
 
 .navbar .nav > li:hover > a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #FECE1A;
+    border: 1px solid rgb(178, 4, 4);
     color: #fff;
-    background-color: #181A1C;
+    background-color: #46bfb4;
     transition: border-color 1s ease;
 }
 
@@ -118,17 +117,17 @@ p {
     margin-right: 5px;
     padding-left: 25px;
     padding-right: 25px;
-    border: 1px solid #181A1C;
+    border: 1px solid #46bfb4;
 }
 
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-    background: #181A1C;
+    background: #46bfb4;
     color: #fff;
 }
 
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius: 0;
-    background: #FECE1A;
+    background: rgb(178, 4, 4);
     color: #000;
 }
 
@@ -161,13 +160,13 @@ p {
 .large-text {
     line-height: 1.2em;
     font-size: 30px;
-    color: #181A1C;
+    color: white;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 .highlighted-box h1, .highlighted-box p {
-    color: #181A1C !important;
+    color: #46bfb4 !important;
 }
 
 .circle-border {
@@ -202,7 +201,7 @@ p {
     text-align: center;
     width: 0;
     height: 0;
-    border-top: 30px solid #181A1C;
+    border-top: 30px solid #46bfb4;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -235,39 +234,39 @@ p {
 **********/
 .button, .button:visited, .button:focus {
     display: inline-block;
-    border: 1px solid #181A1C;
-    color: #181A1C;
+    border: 4px solid rgb(178, 4, 4);
+    color: rgb(178, 4, 4);
     background-color: transparent;
     padding: 15px 30px;
     font-size: 17px;
-    /*line-height: auto;*/
+    text-decoration: none;
 }
 
 .button:hover, .button:active {
-    background-color: #181A1C;
-    color: #fff;
+    background: rgb(178, 4, 4);
+    color: white;
 }
 
 .button-sp, .button-sp:visited, .button-sp:focus {
     border: none;
-    background-color: #FECE1A;
-    color: #181A1C;
+    background-color: rgb(178, 4, 4);
+    color: #46bfb4;
 }
 
 .button-sp:hover, .button-sp:active {
-    background-color: #181A1C;
-    color: #FECE1A;
+    background-color: #46bfb4;
+    color: rgb(178, 4, 4);
 }
 
 .button-ps, .button-ps:visited, .button-ps:focus {
     border: none;
-    background-color: #181A1C;
-    color: #FECE1A;
+    background-color: #46bfb4;
+    color: rgb(178, 4, 4);
 }
 
 .button-ps:hover, .button-ps:active {
-    background-color: #FECE1A;
-    color: #181A1C;
+    background-color: rgb(178, 4, 4);
+    color: #46bfb4;
 }
 
 /*
@@ -322,7 +321,7 @@ p {
 }
 
 .thumbnail h3 {
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
     margin-top: 10px;
     font-size: 20px;
 }
@@ -338,7 +337,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #181A1C;
+    background: #46bfb4;
     position: absolute;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -374,11 +373,11 @@ p {
     padding: 0;
     width: 32px;
     height: 32px;
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
 }
 
 .social li a:hover {
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 /*
@@ -411,11 +410,11 @@ p {
 }
 
 .primary-section {
-    background: #181A1C;
+    background: #46bfb4;
 }
 
 .primary-section .triangle {
-    border-top: 40px solid #FECE1A;
+    border-top: 40px solid rgb(178, 4, 4);
 }
 
 .primary-section .title {
@@ -423,7 +422,7 @@ p {
 }
 
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
+    color: white;
 }
 
 .primary-section h1 {
@@ -431,22 +430,22 @@ p {
 }
 
 .secondary-section {
-    background: #FECE1A;
+    background: rgb(178, 4, 4);
 }
 
 .secondary-section .title {
-    border-bottom: 1px solid #181A1C;
+    border-bottom: 1px solid #46bfb4;
 }
 
 .secondary-section h1, .secondary-section .title p {
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top: 6px solid #FECE1A;
+    background: #46bfb4 url(../images/brand-bg.png) no-repeat center;
+    border-top: 6px solid rgb(178, 4, 4);
 }
 
 .third-section .container {
@@ -456,7 +455,7 @@ p {
 
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
 }
 
 .sub-section {
@@ -493,7 +492,7 @@ p {
 ***************************************/
 .single-project {
     margin-bottom: 30px;
-    background: #181A1C;
+    background: #46bfb4;
 }
 
 .single-project img {
@@ -511,7 +510,7 @@ p {
 .project-title {
     margin-top: 15px;
     margin-bottom: 15px;
-    border-bottom: 1px solid #FECE1A;
+    border-bottom: 1px solid rgb(178, 4, 4);
 }
 
 .project-title h3 {
@@ -522,12 +521,12 @@ p {
 }
 
 .project-title .close {
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
     margin-top: 10px;
 }
 
 .project-info span, .project-title h3 {
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
 }
 
 .project-info {
@@ -576,7 +575,7 @@ p {
 }
 
 .team .thumbnail .mask {
-    background: #FECE1A;
+    background: rgb(178, 4, 4);
 }
 
 .team .thumbnail .mask h2 {
@@ -619,13 +618,13 @@ p {
     margin: 0;
     left: 10px;
     z-index: 1;
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 .skills li .bar {
     height: 40px;
     position: absolute;
-    background-color: #FECE1A;
+    background-color: rgb(178, 4, 4);
 }
 
 /*
@@ -636,7 +635,7 @@ p {
 }
 
 .client-slider img:hover {
-    background-color: #FECE1A;
+    background-color: rgb(178, 4, 4);
 }
 
 .client-nav {
@@ -653,19 +652,19 @@ p {
 .client-nav li a {
     display: inherit;
     padding: 5px;
-    background: #FECE1A;
+    background: rgb(178, 4, 4);
     border-radius: 3px;
     width: 20px;
     height: 20px;
 }
 
 .client-nav li a:hover {
-    background: #181A1C;
+    background: #46bfb4;
 }
 
 .testimonial p {
-    color: #181A1C;
-    background: #FECE1A;
+    color: #46bfb4;
+    background: rgb(178, 4, 4);
     padding: 15px;
     margin: 0;
 }
@@ -673,7 +672,7 @@ p {
 .testimonial .arrow {
     margin-left: 10px;
     width: 0;
-    border-top: 10px solid #FECE1A;
+    border-top: 10px solid rgb(178, 4, 4);
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -730,10 +729,10 @@ p {
 }
 
 .price-column h3 {
-    background-color: #181A1C;
+    background-color: #46bfb4;
     text-transform: uppercase;
     text-align: center;
-    color: #FECE1A;
+    color: rgb(178, 4, 4);
     padding: 40px 0px;
     font-size: 36px;
     margin-top: 0px;
@@ -766,7 +765,7 @@ p {
 .price-text {
     margin: 30px 0 20px;
     font-size: 20px;
-    color: #181A1C;
+    color: #46bfb4;
     font-weight: normal;
 }
 
@@ -799,18 +798,18 @@ p {
 
 .newsletter .button-sp:hover, .newsletter .button-sp:active {
     background-color: #FFF;
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 /*
 3.7 Contact
 ********************************************************************/
 .contact {
-    background: #FECE1A;
+    background: rgb(178, 4, 4);
 }
 
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
@@ -887,7 +886,7 @@ p {
 }
 
 .contact .social li a:hover {
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 .contact-form {
@@ -913,7 +912,7 @@ p {
 }
 
 .message-btn:hover {
-    background-color: #FECE1A;
+    background-color: rgb(178, 4, 4);
 }
 
 .contact-info {
@@ -926,18 +925,18 @@ p {
     width: 60%;
     margin: 0 auto;
     padding: 15px;
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 .black {
-    color: #181A1C;
+    color: #46bfb4;
 }
 
 /*
 3.8 Footer
 ********************************************************************/
 .footer {
-    background: #181A1C;
+    background: #46bfb4;
     text-align: center;
 }
 
@@ -959,7 +958,7 @@ p {
     right: 20px;
     border: 1px solid #fff;
     display: none;
-    background: #FECE1A;
+    background: rgb(178, 4, 4);
 }
 
 .scrollup > a {
@@ -1054,4 +1053,51 @@ p {
     .price-column, .testimonial {
         margin-top: 30px;
     }
+}
+
+select {
+    border-radius: 0 !important;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 45px;
+    -webkit-appearance: none;
+    background: url(arrow.png) no-repeat right whitesmoke;
+}
+
+.pickBar {
+    margin-top: 400px;
+    position: absolute;
+    width: 100%;
+}
+
+#pick {
+    margin: 400px 300px;
+}
+
+#pickButton {
+    padding: 12px 30px;
+    height: 14px;
+    background-color: rgb(178, 4, 4);
+    color: white;
+}
+
+.invert.button {
+    border: 4px solid white;
+    color: white;
+}
+
+.invert.button:hover {
+    background: #46bfb4;
+}
+
+#HowItWorkPopup {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }

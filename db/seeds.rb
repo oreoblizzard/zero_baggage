@@ -6,5 +6,23 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Administrator.create(email: 'virudson@gmail.com', password: '123456')
-Administrator.create(email: 'prakrit.king@gmail.com', password: '123456')
+Administrator.first_or_create(email: 'virudson@gmail.com', password: '123456')
+
+%w[Tokyo Nagoya Kyoto Nara Osaka].each do |name|
+  Station.create(name: name)
+end
+
+%w[F U C K].each do |char|
+  Shirt.create(name: "#{char} T-Shirt", price: 150..300)
+end
+
+%w[S U C K].each do |char|
+  Pant.create(name: "#{char} Jean", price: 150..300)
+end
+
+%w[A S S].each do |char|
+  Sock.create(name: "#{char} Sock", price: 150..300)
+end
+
+
+

@@ -48,3 +48,4 @@ gem 'devise'
 # gem 'bootstrap-sass', '~> 3.3.5'
 gem 'cancancan', '~> 1.10'
 gem 'pry-byebug'
+gem "nested_form"

@@ -1,0 +1,2 @@
+class Pant < Item
+end

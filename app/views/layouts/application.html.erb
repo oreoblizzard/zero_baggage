@@ -21,7 +21,7 @@
 <div class="navbar">
   <div class="navbar-inner">
     <div class="container">
-      <a href="#" class="brand">
+      <a href="/" class="brand">
         <%= image_tag 'logo.png', width: 120, height: 40 %>
         <!-- This is website logo -->
       </a>
@@ -32,13 +32,21 @@
       <!-- Main navigation -->
       <div class="nav-collapse collapse pull-right">
         <ul class="nav" id="top-navigation">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#service">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#clients">Clients</a></li>
-          <li><a href="#price">Price</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <% if user_signed_in? %>
+
+              <li><%= link_to 'Home', root_path %></li>
+              <% if current_user.is_a? Administrator %>
+                  <li><%= link_to 'DashBoard', admins_path %></li>
+              <% else %>
+                  <li><%= link_to 'My Orders', orders_path %></li>
+              <% end %>
+              <li><%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
+          <% else %>
+              <li><%= link_to 'Home', root_path %></li>
+              <li><%= link_to 'Order', new_order_path %></li>
+              <li><%= link_to 'Login', new_user_session_path %></li>
+              <li><%= link_to 'Register', new_user_registration_path %></li>
+        <% end %>
         </ul>
       </div>
       <!-- End main navigation -->
